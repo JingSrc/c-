@@ -1179,7 +1179,7 @@ for (auto iter = beg; iter != end; ++iter) {
 | --- | --- |
 | `value_type` | 元素类型 |
 | `difference_type` | 迭代器之间的差值类型 |
-| `iterator_category` | 迭代器类型&nbsp;&nbsp;&#9670;&nbsp;`bidirectional_iterator_tag`，双向迭代器<br>&nbsp;&nbsp;&#9670;&nbsp;`input_iterator_tag`<br>&nbsp;&nbsp;&#9670;&nbsp;`output_iterator_tag`<br>&nbsp;&nbsp;&#9670;&nbsp;`forward_iterator_tag`<br>&nbsp;&nbsp;&#9670;&nbsp;`random_access_iterator_tag`，随机访问迭代器 |
+| `iterator_category` | 迭代器类型<br>&nbsp;&nbsp;&#9670;&nbsp;`bidirectional_iterator_tag`，双向迭代器<br>&nbsp;&nbsp;&#9670;&nbsp;`input_iterator_tag`<br>&nbsp;&nbsp;&#9670;&nbsp;`output_iterator_tag`<br>&nbsp;&nbsp;&#9670;&nbsp;`forward_iterator_tag`<br>&nbsp;&nbsp;&#9670;&nbsp;`random_access_iterator_tag`，随机访问迭代器 |
 | `pointer` | 元素类型的指针 |
 | `reference` | 元素类型的引用 |
 
