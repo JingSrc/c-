@@ -2220,7 +2220,7 @@ compare_exchange_stong(T &expected, T desired);
 | --- | --- |
 | `mutex` | 互斥体 |
 | `recursive_mutex` | 可以在同一线程中多次获得所锁，但同时需要调用相同次数的解锁操作以释放锁 |
-| `shared_mutex` | 共享锁（读写锁），在`<shared_mutex>`中定义<br>&nbsp;&nbsp;&#9670&nbsp;`try_lock_shared()`：尝试获取读锁<br>&nbsp;&nbsp;&#9670&nbsp;`lock_shared()` ：获取读锁（阻塞）
+| `shared_mutex` | 共享锁（读写锁），在`<shared_mutex>`中定义<br>&nbsp;&nbsp;&#9670;&nbsp;`try_lock_shared()`：尝试获取读锁<br>&nbsp;&nbsp;&#9670;&nbsp;`lock_shared()` ：获取读锁（阻塞）
  |
 
 | **方法** | **描述** |
