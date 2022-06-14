@@ -1567,9 +1567,7 @@ auto res3 = reduce(execution::par_unseq, vec1.begin(), vec1.end(), 0);
 | `match_results` | 捕捉组，`sub_match`的集合
 - `prefix()`、`suffix()`：返回为匹配子串之前或之后的字符
  |
-| `sub_match` | 包含输入序列的一个迭代器对象
-- `str()`返回匹配到的字符串
- |
+| `sub_match` | 包含输入序列的一个迭代器对象<br>&nbsp;&nbsp;&#9670&nbsp;`str()`返回匹配到的字符串 |
 | `regex_iterator` | 遍历一个模式在源字符串中出现的所有位置 |
 | `regex_token_iterator` | 遍历一个模式在源字符串中出现的所有捕捉组 |
 
