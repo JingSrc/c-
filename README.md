@@ -1179,13 +1179,7 @@ for (auto iter = beg; iter != end; ++iter) {
 | --- | --- |
 | `value_type` | 元素类型 |
 | `difference_type` | 迭代器之间的差值类型 |
-| `iterator_category` | 迭代器类型
-- `bidirectional_iterator_tag`，双向迭代器
-- `input_iterator_tag`
-- `output_iterator_tag`
-- `forward_iterator_tag`
-- `random_access_iterator_tag`，随机访问迭代器
- |
+| `iterator_category` | 迭代器类型&nbsp;&nbsp;&#9670;&nbsp;`bidirectional_iterator_tag`，双向迭代器<br>&nbsp;&nbsp;&#9670;&nbsp;`input_iterator_tag`<br>&nbsp;&nbsp;&#9670;&nbsp;`output_iterator_tag`<br>&nbsp;&nbsp;&#9670;&nbsp;`forward_iterator_tag`<br>&nbsp;&nbsp;&#9670;&nbsp;`random_access_iterator_tag`，随机访问迭代器 |
 | `pointer` | 元素类型的指针 |
 | `reference` | 元素类型的引用 |
 
@@ -1564,8 +1558,7 @@ auto res3 = reduce(execution::par_unseq, vec1.begin(), vec1.end(), 0);
 | **类型** | **说明** |
 | --- | --- |
 | `basc_regex` | 正则表达式对象 |
-| `match_results` | 捕捉组，`sub_match`的集合
-- `prefix()`、`suffix()`：返回为匹配子串之前或之后的字符 |
+| `match_results` | 捕捉组，`sub_match`的集合<br>&nbsp;&nbsp;&#9670;&nbsp;`prefix()`、`suffix()`：返回为匹配子串之前或之后的字符 |
 | `sub_match` | 包含输入序列的一个迭代器对象<br>&nbsp;&nbsp;&#9670&nbsp;`str()`返回匹配到的字符串 |
 | `regex_iterator` | 遍历一个模式在源字符串中出现的所有位置 |
 | `regex_token_iterator` | 遍历一个模式在源字符串中出现的所有捕捉组 |
@@ -1819,9 +1812,7 @@ strftime(buf, sizeof(buf), "%H:%M:%S", t);
 ### 随机数引擎
 | **引擎** | **描述** |
 | --- | --- |
-| `random_device` | 这种引擎比较特殊，要求计算机连接真正生成不确定随机数的硬件，通常比伪随机数更慢
-- `entropy()`返回随机数的熵，决定随机数生成器的质量
- |
+| `random_device` | 这种引擎比较特殊，要求计算机连接真正生成不确定随机数的硬件，通常比伪随机数更慢<br>&nbsp;&nbsp;&#9670;&nbsp;`entropy()`返回随机数的熵，决定随机数生成器的质量 |
 | `linear_congruential_engine` | 线性同余引擎，所需内存最少 |
 | `mersenne_twister_engine` | 梅森旋转算法，随机数质量最高 |
 | `subtract_with_carry_engine` | 带进位减法，质量不如梅森旋转算法 |
@@ -1857,36 +1848,11 @@ strftime(buf, sizeof(buf), "%H:%M:%S", t);
 
 | **分布** | **类型** |
 | --- | --- |
-| 均匀分布 | 
-- `uniform_int_distribution`
-- `uniform_real_distribution`
- |
-| 伯努利分布  | 
-- `bernoulli_distribution`
-- `binomial_distribution`
-- `geometric_distribution`
-- `negative_binomial_distribution`
- |
-| 泊松分布 | 
-- `poisson_distribution`
-- `exponential_distribution`
-- `gamma_distribution`
-- `weibull_distribution`
-- `extreme_value_distribution`
- |
-| 正态分布  | 
-- `normal_distribution`
-- `lognormal_distribution`
-- `chi_squared_distribution`
-- `cauchy_distribution`
-- `fisher_f_distribution`
-- `student_t_distribution`
- |
-| 采样分布  | 
-- `discrete_distribution`
-- `piecewise_constant_distribution`
-- `piecewise_linear_distribution`
- |
+| 均匀分布 | &nbsp;&nbsp;&#9670;&nbsp;`uniform_int_distribution`<br>&nbsp;&nbsp;&#9670;&nbsp;`uniform_real_distribution` |
+| 伯努利分布  | &nbsp;&nbsp;&#9670;&nbsp;`bernoulli_distribution`<br>&nbsp;&nbsp;&#9670;&nbsp;`binomial_distribution`<br>&nbsp;&nbsp;&#9670;&nbsp;`geometric_distribution`<br>&nbsp;&nbsp;&#9670;&nbsp;`negative_binomial_distribution` |
+| 泊松分布 | &nbsp;&nbsp;&#9670;&nbsp;`poisson_distribution`<br>&nbsp;&nbsp;&#9670;&nbsp;`exponential_distribution`<br>&nbsp;&nbsp;&#9670;&nbsp;`gamma_distribution`<br>&nbsp;&nbsp;&#9670;&nbsp;`weibull_distribution`<br>&nbsp;&nbsp;&#9670;&nbsp;`extreme_value_distribution` |
+| 正态分布  | &nbsp;&nbsp;&#9670;&nbsp;`normal_distribution`<br>&nbsp;&nbsp;&#9670;&nbsp;`lognormal_distribution`<br>&nbsp;&nbsp;&#9670;&nbsp;`chi_squared_distribution`<br>&nbsp;&nbsp;&#9670;&nbsp;`cauchy_distribution`<br>&nbsp;&nbsp;&#9670;&nbsp;`fisher_f_distribution`<br>&nbsp;&nbsp;&#9670;&nbsp;`student_t_distribution` |
+| 采样分布  | &nbsp;&nbsp;&#9670;&nbsp;`discrete_distribution`<br>&nbsp;&nbsp;&#9670;&nbsp;`piecewise_constant_distribution`<br>&nbsp;&nbsp;&#9670;&nbsp;`piecewise_linear_distribution` |
 
 ```cpp
 random_device seeder;
