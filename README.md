@@ -1565,8 +1565,7 @@ auto res3 = reduce(execution::par_unseq, vec1.begin(), vec1.end(), 0);
 | --- | --- |
 | `basc_regex` | 正则表达式对象 |
 | `match_results` | 捕捉组，`sub_match`的集合
-- `prefix()`、`suffix()`：返回为匹配子串之前或之后的字符
- |
+- `prefix()`、`suffix()`：返回为匹配子串之前或之后的字符 |
 | `sub_match` | 包含输入序列的一个迭代器对象<br>&nbsp;&nbsp;&#9670&nbsp;`str()`返回匹配到的字符串 |
 | `regex_iterator` | 遍历一个模式在源字符串中出现的所有位置 |
 | `regex_token_iterator` | 遍历一个模式在源字符串中出现的所有捕捉组 |
@@ -2221,9 +2220,7 @@ compare_exchange_stong(T &expected, T desired);
 | --- | --- |
 | `mutex` | 互斥体 |
 | `recursive_mutex` | 可以在同一线程中多次获得所锁，但同时需要调用相同次数的解锁操作以释放锁 |
-| `shared_mutex` | 共享锁（读写锁），在`<shared_mutex>`中定义
-- `try_lock_shared()`：尝试获取读锁
-- `lock_shared()` ：获取读锁（阻塞）
+| `shared_mutex` | 共享锁（读写锁），在`<shared_mutex>`中定义<br>&nbsp;&nbsp;&#9670&nbsp;`try_lock_shared()`：尝试获取读锁<br>&nbsp;&nbsp;&#9670&nbsp;`lock_shared()` ：获取读锁（阻塞）
  |
 
 | **方法** | **描述** |
